@@ -1,0 +1,33 @@
+p {
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 3em;
+    text-align: center;
+}
+body {
+    font-size: 16px;
+}
+ul {
+    text-align: center;
+    text-decoration: underline;
+    line-height: 30px;
+}
+#amarelo {
+    background-color: yellow;
+}
+#vermelho {
+    background-color: red;
+}
+#marrom {
+    background-color: brown;
+}
+h1 {
+    color: orange;
+    height: 61px  
+  }
+  ul {
+      background-color: rgb(500, 200, 200);
+  }
+  .liststyle {
+      background-color: rgb(500, 200, 200);
+  }
