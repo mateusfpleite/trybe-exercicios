@@ -34,7 +34,6 @@ div:nth-of-type(5) > h3 {
 }
 div:nth-child(odd) > h3 {
     font-style: italic;
-    font-size: xx-large;
 }
 
 
