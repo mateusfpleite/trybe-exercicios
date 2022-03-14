@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <header>
+      <h2 id="page-title">Título</h2>
+      <p id="paragraph" class="paragrafo">Dê uma cor para este parágrafo!</p>
+      <h4 id="subtitle">Subtítulo</h4>
+      <p id="second-paragraph" class="paragrafo">Segundo parágrafo!</p>
+    </header>
+    <script>
+      const paragraph = document.getElementById("paragraph");
+      paragraph.style.color = "red";
+      const titulo = document.getElementById("page-title").innerText = "Amour";
+      const segundoParagrafo = document.getElementById("second-paragraph").innerText = "Um filme belo e trágico"
+      const subtitulo = document.getElementById("subtitle").innerText = "Michel Haneke"
+      const paragrafo = document.getElementsByClassName("paragrafo"); 
+    paragrafo[0].style.backgroundColor = "black"; 
+    paragrafo[1].style.fontStyle = "italic";
+    document.getElementsByTagName("h2")[0].style.color = "blue";
+    </script>
+  </body>
+</html>
