@@ -76,9 +76,10 @@
     section3.className = "right-content"; 
     main.appendChild(section3);
     let imagem = document.createElement('img'); 
-    imagem.innerHTML = "<img src='https://picsum.photos/200'>";
+    imagem.src = 'https://picsum.photos/200';
     imagem.className = 'small-image';
-    section3.appendChild(imagem);
+    section2.appendChild(imagem);
+    console.log(imagem)
 
     </script>
   </body>
