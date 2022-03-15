@@ -17,4 +17,9 @@ let primeiroFilhodoFilho = document.querySelector("#elementoOndeVoceEsta").first
 let primeiroBisneto = document.createElement('section'); 
 primeiroBisneto.id = "primeiroBisneto"; 
 primeiroFilhodoFilho.appendChild(primeiroBisneto);
-let paidoPai = document.getElementById("paiDoPai");
+let paiDoPai = document.querySelector("#paiDoPai");
+for (index = 0; index <= elementoPai.childNodes; index +=1) {
+    if (elementoPai.childNodes[index].id == "elementoOndeVoceEsta"){
+        elementoPai.removeChild(elementoPai.childNodes[index]);
+    }
+}
